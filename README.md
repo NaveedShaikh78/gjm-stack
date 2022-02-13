@@ -15,12 +15,12 @@ npm install --save gjm-stack
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'gjm-stack'
+import UserView from 'gjm-stack'
 import 'gjm-stack/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <UserView />
   }
 }
 ```
